@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 // Ruta del archivo JSON
-const ruta = path.join(__dirname, "curriculum", "cv.json");
+const ruta = path.join(process.cwd(), "curriculum", "cv.json");
 
 // ===============================
 // FUNCIONES
@@ -625,14 +625,16 @@ app.delete("/curriculum/idiomas/:id", (req, res) => {
 
 
 // ===============================
-// EXPORTAR PARA VERCEL
+// EXPORTAR Y ESCUCHAR
 // ===============================
 
-module.exports = app;
-const PORT = process.env.PORT || 3000;
+// En local inicia el servidor de forma normal
+if (process.env.NODE_ENV !== "production") {
+  const PORT = process.env.PORT || 3000;
+  app.listen(PORT, () => {
+    console.log(`Servidor local corriendo en el puerto ${PORT}`);
+  });
+}
 
-app.listen(PORT, "0.0.0.0", () => {
-    console.log(`Servidor ejecutándose en el puerto ${PORT}`);
-});
-
+// Exporta el módulo para Vercel Serverless
 module.exports = app;
