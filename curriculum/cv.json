@@ -1,0 +1,126 @@
+{
+  "curriculum": {
+    "id": 1,
+    "nombre": "Elias Emmanuel Sarabeachi Romero",
+    "titulo": "Ingeniero en Sistemas",
+    "contacto": {
+      "telefono": "614-338-8946",
+      "correo": "eliassarabeachi@gmail.com"
+    },
+    "sobre_mi": "Soy una persona proactiva que le gusta aprender nuevas cosas. Me considero una persona curiosa y activa para contribuir soluciones en un equipo de trabajo. Además, sy una persona resiliente y perseverante que siempre esta dispuesto a asumir nuevos retos y crecer profesionalmente.",
+    "educacion": [
+      {
+        "id": "1",
+        "escuela": "Universidad Tecnologica de Chihuahua",
+        "grado": "Ingeniería en Sistemas",
+        "inicio": "Septiembre 2024",
+        "fin": "Actualidad"
+      },
+      {
+        "id": "2",
+        "escuela": "Centro de Bachillerato Tecnológico industrial y de servicios #122",
+        "grado": "Ingeniería en Sistemas",
+        "inicio": "Agosto 2021",
+        "fin": "Junio 2024"
+      },
+      {
+        "id": "3",
+        "escuela": "UTCH Cantera",
+        "grado": "Especialidad",
+        "inicio": "2892",
+        "fin": "123456"
+      }
+    ],
+    "experiencia": [
+      {
+        "id": "1",
+        "empresa": "ChambApp",
+        "puesto": "Desarrollador fullstack",
+        "inicio": "Septiembre 2025",
+        "fin": "Actualidad",
+        "descripcion": "Participación en el backend del codgo. Implementando funciones del sistema \n Manejo de la base de datos y conexión al backend para mostrar datos de los usuarios \n Desarrollo de la interfaz de usuario y su respectiva navegación entre pantallas"
+      },
+      {
+        "id": "2",
+        "empresa": "Tiendas Six",
+        "puesto": "Encargado al atención al cliente y recibir proovedores",
+        "inicio": "Septiembre 2024",
+        "fin": "Actualidad",
+        "descripcion": "Atención al cliente manejando el efectivo y compras de las personas \n Cierre y corte de caja para cambio de turno o termino de día \n Atención hacia los proveedores en la compra de producto \n Recibir los productos de proveedores y ordenar la bodega por medio de fechas de caducidad."
+      },
+      {
+        "id": "3",
+        "empresa": "Mars Challenge",
+        "puesto": "Participante en el reto de Mars Challenge",
+        "inicio": "Marzo 2026",
+        "fin": "Mayo 2026",
+        "descripcion": "Investigación y documentación del proyecto basado en biotransformación del suelo en ambito espacial. \n Relación y colaboración activa con equipo multidiciplinario. \n Gestión de requirimientos del prototipo \n Planeación de investigación preeliminar y creación tecnica"
+      },
+      {
+        "id": "4",
+        "empresa": "Instituto Mexicano del Seguro Social (IMSS)",
+        "puesto": "Practicante",
+        "inicio": "Diciembre 2023",
+        "fin": "Marzo 2024",
+        "descripcion": "Administrador de la base de datos para la creación y registro de empleados \n Conexión de la app a un servidor para el funcionamiento del sistema en la empresa. \n Desarrollo del backend en funciones para el sistema."
+      }
+    ],
+    "habilidades": {
+      "blandas": [
+        "Desarrollador Backend",
+        "Colaboración en equipos de trabajo",
+        "Manejo de base de datos",
+        "Investigación cientifica",
+        "Solución de problemas logicos",
+        "Trabajo bajo presión",
+        "Adaptabilidad",
+        "Pensamiento estrategico",
+        "Jugador activo de Fc Capital",
+        {
+          "tecnicas": "manejo"
+        },
+        {
+          "tecnicas": "manejo"
+        },
+        {
+          "tecnicas": "Manejo de base de datos"
+        },
+        {
+          "tecnicas": "Manejo de base de datos"
+        },
+        {
+          "blandas": "Oratoria"
+        },
+        [
+          "Cetificado de Ingles"
+        ]
+      ],
+      "tecnicas": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "C#",
+        "React",
+        "SQL",
+        "PostgreSQL"
+      ]
+    },
+    "idiomas": [
+      {
+        "id": "1",
+        "idioma": "Español",
+        "nivel": "Nativo"
+      },
+      {
+        "id": "2",
+        "idioma": "Inglés",
+        "nivel": "B2"
+      }
+    ],
+    "certificaciones": [
+      "Tecnico en Programacion",
+      "Certificado Mars Challenge"
+    ]
+  }
+}
